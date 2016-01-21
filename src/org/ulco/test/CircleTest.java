@@ -8,10 +8,12 @@ import org.ulco.Circle;
 public class CircleTest extends TestCase {
 
     public void testType() throws Exception {
+
         Circle s = new Circle(new Point(0, 0),10);
 
         assertTrue(s instanceof Circle);
         assertTrue(s instanceof GraphicsObject);
+
     }
 
     public void testJson() throws Exception {
